@@ -8,9 +8,9 @@ content: |-
 
   # Usage - Module
 
-  ## Network Watcher Flow Log
+  ## Log Analytics Workspace.
   ```hcl
-  {{ include "examples/network-watcher-flow-log-example/main.tf" }}
+  {{ include "examples/log-analytics-workspace-example/main.tf" }}
   ```
 
   {{ .Providers }}
